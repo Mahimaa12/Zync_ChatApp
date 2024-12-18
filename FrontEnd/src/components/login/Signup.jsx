@@ -1,10 +1,10 @@
 import React from "react"; 
-import './login.css';
+import './Signup.css';
 import user_icon from '../assets/user.png';
 import password_icon from '../assets/password.png';
 import email_icon from '../assets/email.png';
 
-const Login = () => {
+const Signup = () => {
     return (
         <div className="container">
             <div className="heading">WELCOME TO ZYNC!</div>
@@ -41,4 +41,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Signup;
